@@ -161,6 +161,11 @@ footer {
   display: flex;
 }
 
+#date {
+  font-size: larger;
+  font-weight: bold;
+}
+
 .card {
   display: inline-block;
   background-color: white;

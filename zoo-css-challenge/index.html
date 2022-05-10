@@ -150,7 +150,12 @@
             <a>Find out More</a>
           </div>
           <div class="card">
-            <time>09/05/2022</time>
+            <time id="date">
+              <script>
+                date = new Date().toLocaleDateString("es-ES");
+                document.write(date);
+              </script>
+            </time>
             <h4>Which big cat are you?</h4>
             <a>Find out More</a>
           </div>
